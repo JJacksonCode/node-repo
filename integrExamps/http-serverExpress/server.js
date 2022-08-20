@@ -18,3 +18,6 @@ app.get('welcome', function (req, res) {
 app.listen(3333, function() {
   console.log('Friendly unsecure server listening on 3333. :) go check it out.))');
 });
+
+// tested 20.8.2022 working pushed to git@github.com/JJacksonCode/node-repo/integrExamps/http-serverExpress/server.js
+// have a nice day! JJackson 
