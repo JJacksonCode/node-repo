@@ -1,5 +1,5 @@
 // this is code referenced from list site: https://ourcodeworld.com/articles/read/261/how-to-create-an-http-server-with-express-in-node-js
-
+// don't forget to run npm install express if you get an error expess module not found
 // require express and instantiate
 var express = require('express');
 var app = express();
@@ -20,4 +20,4 @@ app.listen(3333, function() {
 });
 
 // tested 20.8.2022 working pushed to git@github.com/JJacksonCode/node-repo/integrExamps/http-serverExpress/server.js
-// have a nice day! JJackson 
+// have a nice day! JJackson
