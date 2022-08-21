@@ -20,7 +20,10 @@ h1 {
   text-align: center;
 }
 
-
+.container {
+  width: 68.38%;
+  margin: 0 auto;
+}
 .box-1 {
   background-color:#f4f4f4;
 }
