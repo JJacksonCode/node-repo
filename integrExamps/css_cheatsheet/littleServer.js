@@ -1,5 +1,5 @@
 // here is another example of http server with js that can run in node v8 engine.
-// nice it listens on 1337 ;)
+// noice it listens on 1337 ;)
 // first req in http
 var http = require('http');
 
