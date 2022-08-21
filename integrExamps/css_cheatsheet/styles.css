@@ -52,3 +52,10 @@ h1 {
   padding: 1.2em;
   margin: 1.2em  0;
 }
+
+.categories {
+  border:1px #ccc solid;
+  padding:.8em;
+  border-radius: 1.3em;
+  border-width: 1.2em;
+}
