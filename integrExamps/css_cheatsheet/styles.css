@@ -46,6 +46,9 @@ a:visited {
 .button:hover {
   background-color: red;
 }
+ .clr {
+  clear: both;
+}
 
 .box-1 {
   display: flex;
@@ -116,4 +119,39 @@ a:visited {
   border: 1px solid #ccc;
   padding: .5em;
   box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 68.821%;
+}
+
+#sidebar {
+  float: right;
+  width: 31.179%;
+  background-color: #ccc;
+  color: #fff;
+  padding: .8em;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width:800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 2em;
+  position: relative;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 5em;
+  margin-left: 2em;
+
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 2.3em;
+  right: 6em;
 }
