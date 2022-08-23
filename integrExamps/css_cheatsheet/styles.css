@@ -21,11 +21,32 @@ h1 {
   font-size: 2.2em;
   text-align: center;
 }
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:visited {
+  color: black;
+}
 
 .container {
   width: 68.38%;
   margin: 0 auto;
 }
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: .8em 1em;
+  border: none;
+}
+
+.button:hover {
+  background-color: red;
+}
+
 .box-1 {
   display: flex;
   font-family: monospace;
@@ -89,9 +110,10 @@ h1 {
   width: 100%;
 }
 
-.my-form input[type='submit'] {
-  background-color: #333;
-  color: #fff;
-  padding: .8em 1em;
-  border: none;
+.block {
+  float: left;
+  width: 33.33%;
+  border: 1px solid #ccc;
+  padding: .5em;
+  box-sizing: border-box;
 }
