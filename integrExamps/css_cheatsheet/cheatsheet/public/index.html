@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+      <style type="text/css">h1{color:#8A2BE2;}</style>
+      <!-- above is the purple title -->
+
+      <title>CSS Cheat Sheet</title>
+    </head>
+    <body>
+
+        <div class=container>
+          <h1>Hello Cheat Sheet Lovers</h1>
+          <div class="box-1">
+            <h2>Hello and Welcome</h2>
+            <p>Welcome, thanks for visiting. This is a CSS cheatsheet.
+              I am making this current page to demonstrate that I have followed
+              the document sent listing prep material for a technical discussion.
+              This is from a 1 hr 25 min video on youtube called 'CSS Crash Course for absolute beginners'.
+              These are basic skills that any full-stack dev should know. I will put them all on this page.
+              See also ./styles.css for details.
+              <br />
+              This guy on youtube wants us to run
+              the html from our filesystem. It's
+              probably better to run in local host though.
+              I'm sure we will in just a moment, but first
+              let's do the same thing for repetition's sake.
+              What, you ask?
+              An http server in node, my good Sir or Madam!
+              <br/>
+              Run over to your command line and do a <code>node littleServer.js</code>.
+              <br/>
+              Anyway, this is a cheatsheet to show some CSS
+              examples, but does not include flexbox, that will be separate
+              I assume.  Thank you.
+              <br/>
+              The font-family for this page is Arial, Helvetica, sans-serif. The text color for text
+              inside the <code> p tags is #555555 - some kind of grey.</code>
+            </p>
+          </div>
+          <div class="box-2">
+            <h2>See you later</h2>
+            <p>Welcome, thanks for visiting. This is a second box in the example page.
+              Second text Second text Second text Second text Second text Second text
+              Second text Second text Second text Second text Second text Second text
+              Second text Second text Second text Second text Second text Second text
+              <br />
+            </p>
+          </div>
+          <div class='categories'>
+              <h2>Categories</h2>
+              <ul>
+                <li><FontAwesomeIcon icon="fa-solid fa-check" />
+                  <a href='#'>Category 1</a></li>
+                <li><FontAwesomeIcon icon="fa-solid fa-check" /><a href='#'>Category 2</a></li>
+                <li><FontAwesomeIcon icon="fa-solid fa-check" /><a href='#'>Category 3</a></li>
+                <li><FontAwesomeIcon icon="fa-solid fa-check" /><a href='#'>Category 4</a></li>
+              </ul>
+          </div>
+        </div>
+        <form>
+          <div class="form-group">
+            <label>Name: </label>
+            <input type="text" name="name">
+          </div>
+          <div class="form-group">
+            <label>Email: </label>
+            <input type="text" name="email">
+          </div>
+          <div class="form-group">
+            <label>Message: </label>
+            <textarea name="message"></textarea>
+          </div>
+          <input class="button" type="submit" value="submit" name="">
+        </form>
+      </div><!-- ./container -->
+
+      <div style="margin-top:500px;"></div>
+    </body>
+</html>

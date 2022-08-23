@@ -59,32 +59,8 @@ h1 {
   border-radius: 1.3em;
   border-width: 1.2em;
 }
-.categories h2 {
-  text-align: center;
-}
-.categories ul {
-  padding:0;
-  list-style: square;
-  list-style: none;
-}
+
 .categories li{
   padding-bottom: .5em;
-  border-bottom: dotted 1px #333;
-  list-style-image: url('./images/check.png');
-}
-
-.my-form {
-  padding-top: .6em;
-}
-
-.my-form .form-group {
-  padding-bottom: .4em;
-}
-
-.my-form label {
-  display: block;
-}
-.my-form input {
-  padding: .9em;
-  width: 100%;
+  border-bottom: dotted 1px;
 }
