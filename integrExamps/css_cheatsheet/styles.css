@@ -141,7 +141,10 @@ a:visited {
   border: 1px solid #000;
   margin-top: 2em;
   position: relative;
-  background-image: url('./images/bgimage.jpg');
+  background-image: url('./images/bgimage2.jpg');
+  /*background-repeat: no-repeat; */
+  background-size: cover;
+
 }
 
 .p-box h1 {
