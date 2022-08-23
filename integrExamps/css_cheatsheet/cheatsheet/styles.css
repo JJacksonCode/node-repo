@@ -84,14 +84,7 @@ h1 {
 .my-form label {
   display: block;
 }
-.my-form input[type="text"], .my-form textarea {
+.my-form input {
   padding: .9em;
   width: 100%;
-}
-
-.my-form input[type='submit'] {
-  background-color: #333;
-  color: #fff;
-  padding: .8em 1em;
-  border: none;
 }
