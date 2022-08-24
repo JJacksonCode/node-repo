@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "typescript": "^4.7.4",
+    "yarn": "^1.22.19"
+  },
+  "name": "todo-code",
+  "version": "1",
+  "description": "node todo app",
+  "main": "index.js",
+  "repository": "git@github.com/JJacksonCode/node-repo",
+  "author": "Jeff Jackson",
+  "license": "\tMIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.7.13",
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  }
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+  }
+
+}
