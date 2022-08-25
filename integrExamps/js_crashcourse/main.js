@@ -37,6 +37,9 @@ const fruits = ['apples', 'oranges', 'bananas', 'metsä-marjat'];
 
 /*  multi
 line
+ below are some examples of array methods like push, unshift, and indexing
+
+
 comment */
 console.log(fruits);
 console.log(fruits[3]);
@@ -46,3 +49,4 @@ fruits.push('mangos');
 console.log(fruits);
 fruits.unshift('jordgubbar');
 console.log(fruits);
+console.log('Index of the oranges '+fruits.indexOf('oranges'));
