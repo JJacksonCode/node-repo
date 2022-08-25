@@ -42,3 +42,7 @@ console.log(fruits);
 console.log(fruits[3]);
 fruits[4] ='mustikka';
 console.log(fruits[4]);
+fruits.push('mangos');
+console.log(fruits);
+fruits.unshift('jordgubbar');
+console.log(fruits);
