@@ -26,3 +26,19 @@ var j = 37;
 var result = i + j;
 
 console.log('Once upon a time ' + name + 'added 2 integers. Result was: ' + result);
+
+const s = 'Hello mundoworld!';
+console.log(s.length);
+
+console.log(s.substring(0, 5).toUpperCase());
+
+// arrays
+const fruits = ['apples', 'oranges', 'bananas', 'metsä-marjat'];
+
+/*  multi
+line
+comment */
+console.log(fruits);
+console.log(fruits[3]);
+fruits[4] ='mustikka';
+console.log(fruits[4]);
