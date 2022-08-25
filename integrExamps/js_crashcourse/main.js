@@ -22,10 +22,25 @@ const todos = [
   },
   {
     id: 1,
-    text: 'Dentist',
+    text: 'Go to Dentist',
     isCompleted: false
   }
 ];
+
+// forEach, map, filter
+const todoText = todos.map(function(todo) {
+  return todo.text;
+});
+
+console.log(todoText);
+//
+
+
+/*
+
+todos.forEach(function(todo) {
+  console.log(todo.text);
+});
 // For loop
 for(let i = 0; i <= todos.length; i++) {
   console.log(todos[i].text);
@@ -34,6 +49,10 @@ for(let i = 0; i <= todos.length; i++) {
 for(todo of todos) {
   console.log(todo.id);
 }
+
+
+
+*/
 // how to send JSON data to the server
 //const todoJSON = JSON.stringify(todos);
 //console.log(todoJSON);
