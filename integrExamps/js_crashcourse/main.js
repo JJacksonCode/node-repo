@@ -6,16 +6,34 @@ Jeff Jackson
 
 
 comment */
+//
+//
 
-const  person = {
-  firstName: 'Bobby',
-  lastName: 'Coderssons',
-  age: 31,
-  hobbies: ['music', 'sports', 'drums', 'Cuban salsa'],
-  address: {
-    street: '50 Hundred Main St',
-    city: 'Anytown',
-    state: 'TX'
+const todos = [
+  {
+    id: 1,
+    text: 'Take out trash',
+    isCompleted: true
+  },
+  {
+    id: 1,
+    text: 'Meeting with bo$$',
+    isCompleted: true
+  },
+  {
+    id: 1,
+    text: 'Dentist',
+    isCompleted: false
   }
+];
+// For loop
+for(let i = 0; i <= todos.length; i++) {
+  console.log(todos[i].text);
 }
-console.log(person);
+
+for(todo of todos) {
+  console.log(todo.id);
+}
+// how to send JSON data to the server
+//const todoJSON = JSON.stringify(todos);
+//console.log(todoJSON);
