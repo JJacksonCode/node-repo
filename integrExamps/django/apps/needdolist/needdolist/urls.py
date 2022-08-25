@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+
 urlpatterns = [
+    path('$', include('needdos.urls')),
+    path('needdos/', include('needdos.urls')),
     path('admin/', admin.site.urls),
 ]
