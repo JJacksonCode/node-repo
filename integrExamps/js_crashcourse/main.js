@@ -7,32 +7,15 @@ Jeff Jackson
 
 comment */
 //
-//
-
-const x = 71.5;
-const y = 11;
-
-
-
-if(x > 5 && y > 10) {
-  console.log('x is more than 5 or y is more than 10');
-} else if(x > 10) {
-  console.log('x is greater than 10');
-}
-else {
-  console.log('x is NOT 10, it might be a little less.');
+//constructor function
+function Person(firstName, lastName, dob) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = dob;
 }
 
-const color = x > 10 ? 'red' : 'blue';
+// instantiate object
+const person1 = new Person('Ricki', 'Bobby', '4-4-1984');
+const person2 = new Person('Mari', 'Joensuu', '3-3-1992');
 
-switch (color) {
-  case 'red':
-    console.log('color is red');
-    break;
-  case 'blue':
-    console.log('this one blue');
-    break;
-  default:
-    console.log('color is Neither red NOR blue');
-    break;
-}
+console.log(person1, person2);
