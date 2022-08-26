@@ -9,50 +9,14 @@ comment */
 //
 //
 
-const todos = [
-  {
-    id: 1,
-    text: 'Take out trash',
-    isCompleted: true
-  },
-  {
-    id: 1,
-    text: 'Meeting with bo$$',
-    isCompleted: true
-  },
-  {
-    id: 1,
-    text: 'Go to Dentist',
-    isCompleted: false
-  }
-];
+const x = 7.5;
+const y = 11;
 
-// forEach, map, filter
-const todoText = todos.map(function(todo) {
-  return todo.text;
-});
-
-console.log(todoText);
-//
-
-
-/*
-
-todos.forEach(function(todo) {
-  console.log(todo.text);
-});
-// For loop
-for(let i = 0; i <= todos.length; i++) {
-  console.log(todos[i].text);
+if(x > 5 && y > 10) {
+  console.log('x is more than 5 or y is more than 10');
+} else if(x > 10) {
+  console.log('x is greater than 10');
 }
-
-for(todo of todos) {
-  console.log(todo.id);
+else {
+  console.log('x is NOT 10, it might be a little less.');
 }
-
-
-
-*/
-// how to send JSON data to the server
-//const todoJSON = JSON.stringify(todos);
-//console.log(todoJSON);
