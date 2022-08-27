@@ -9,4 +9,6 @@
 //console.log(document.getElementById('header-title'));
 var headerTtile = document.getElementById('header-title');
 console.log(headerTtile);
-headerTtile.textContent = 'Hi everyone.';
+// headerTtile.textContent = 'Moikka kaikialle.';
+console.log(headerTtile.textContent);
+headerTtile.innerHTML = '<h3>Smaller title</h3>';
