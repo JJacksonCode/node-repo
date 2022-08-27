@@ -19,3 +19,4 @@ const { firstName, lastName, address: { city }} = person;
 console.log(person);
 person.email = 'bobbi.coderssons@cmail.com';
 console.log(person);
+console.log(`${person.firstName}`);

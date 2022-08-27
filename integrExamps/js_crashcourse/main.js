@@ -24,4 +24,8 @@ const items = document.querySelectorAll('.item');
 
 items.forEach((item) => console.log(item));
 const ul = document.querySelector('.items');
-ul.remove();
+// ul.remove();
+// ul.lastElementChild.remove();
+ul.firstElementChild.textContent = 'Hello';
+ul.children[1].innerText = 'Coderssons';
+ul.lastElementChild.innerHTML = '<h1>Greetings Earthlings</h1>';
