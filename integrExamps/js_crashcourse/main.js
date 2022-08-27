@@ -32,3 +32,8 @@ ul.lastElementChild.innerHTML = '<h1>Greetings Earthlings</h1>';
 
 const btn = document.querySelector('.btn');
 btn.style.background = 'red';
+btn.addEventListener('click', (e) => {
+  e.preventDefault();
+  console.log(e.target.className);
+  document.querySelector('#my-form').style.background = '#ccc';
+});
