@@ -55,9 +55,17 @@ function onSubmit(e) {
   e.preventDefault();
 
   if(nameInput.value === '' || emailInput.value === '') {
-    alert('Please give up the data!');
+    msg.classList.add('error');
+    msg.innerHTML = 'Please give up the data!';
+    setTimeout(() => msg.remove(), 3000);
   } else {
-    console.log('success');
+    const li = document.createElement('li');
+    li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
+    userList.appendChild(li);
+
+    // clear fields
+    nameInput.value = '';
+    emailInput.value = '';
   }
 
 }

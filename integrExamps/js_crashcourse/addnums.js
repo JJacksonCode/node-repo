@@ -11,7 +11,7 @@ const addNums = (a, b) => {
 
 */
 
-
+// a nice little code to addNums * note structure * (a, b) => a [operand] b;
 const addNums = (a, b) => a + b;
 
 console.log(addNums(2, 31997));
