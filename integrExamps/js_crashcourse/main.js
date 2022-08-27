@@ -3,47 +3,25 @@ line
 Jeff Jackson
  This is main.js file it will fill examples  and then I save them as a .js
  file the says what's in the examples, like arrays e.g.
-// constructor function
- function Person(firstName, lastName, dob) {
-   this.firstName = firstName;
-   this.lastName = lastName;
-   this.dob = new Date(dob);
- }
 
 //
-//constructor function
+//single  element
+const form = document.getElementById('my-form');
+const select = document.querySelector('.container');
+const letters = document.querySelector('h1');
 
+console.log(form);
+console.log(select);
+console.log(letters);
 
-Person.prototype.getBirthYear = function() {
-  return this.dob.getFullYear();
-}
-Person.prototype.getFullName = function() {
-  return `${this.firstName} ${this.lastName}`;
-}
+// multiple items
+console.log(document.querySelectorAll('.item'));
 comment */
 
+//console.log(window.location);
 
-// Class with constructor
-class Person {
-  constructor(firstName, lastName, dob) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.dob = new Date(dob);
-  }
+const items = document.querySelectorAll('.item');
 
-  getBirthYear() {
-    return this.dob.getFullYear();
-  }
-
-  getFullName() {
-    return `${this.firstName} ${this.lastName}`;
-  }
-}
-
-// instantiate object
-const person1 = new Person('Ricki', 'Bobby', '4-4-1984');
-const person2 = new Person('Mari', 'Joensuu', '3-3-1992');
-
-console.log(person1, person2.lastName, person2.dob);
-console.log(person1.getBirthYear(), person1.getFullName(), person2.getBirthYear(), person2.getFullName());
-console.log(person2);
+items.forEach((item) => console.log(item));
+const ul = document.querySelector('.items');
+ul.remove();
