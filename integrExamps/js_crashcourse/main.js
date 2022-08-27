@@ -29,3 +29,6 @@ const ul = document.querySelector('.items');
 ul.firstElementChild.textContent = 'Hello';
 ul.children[1].innerText = 'Coderssons';
 ul.lastElementChild.innerHTML = '<h1>Greetings Earthlings</h1>';
+
+const btn = document.querySelector('.btn');
+btn.style.background = 'red';
