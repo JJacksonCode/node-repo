@@ -18,12 +18,16 @@ console.log(headerTtile.textContent);
 header.style.borderBottom = 'solid 3px #000';
 
 // getElementsByClassName('className')
-var li = document.getElementsByTagName('li');
-console.log(li[1]);
-li[1].textContent = 'Hello Deux';
-li[1].style.fontWeight = 'bold';
-li[1].style.backgroundColor = 'yellow';
+// var li = document.getElementsByTagName('li');
+// console.log(li[1]);
+// li[1].textContent = 'Hello Deux';
+// li[1].style.fontWeight = 'bold';
+// li[1].style.backgroundColor = 'yellow';
 
-for(var i = 0; i < items.length; i++) {
-  li[i].style.backgroundColor = '#f4f4f4';
-}
+// for(var i = 0; i < items.length; i++) {
+//  li[i].style.backgroundColor = '#f4f4f4';
+// }
+
+// QUERYSELECTOR //
+var hbordet = document.querySelector('#main-header');
+hbordet.style.borderBottom = 'solid 44px #ccc';
